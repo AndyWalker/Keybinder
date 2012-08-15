@@ -181,7 +181,7 @@ If (Freigabe = 1)
 {
 	If(XPOS>=1008.6192-8&&XPOS<=1000.3409+8) && (YPOS>=-942.3373-4&&YPOS<=-938.2012+4)
 		{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
@@ -205,7 +205,7 @@ If (Freigabe = 1)
 		}
 	Else If(XPOS>=-94.9821&&XPOS<=-88.0944) && (YPOS>=-1173.7999&&YPOS<=-1165.8394)
 			{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
@@ -250,7 +250,7 @@ If (Freigabe = 1)
 		}
 	else If(XPOS>=658.7794&&XPOS<=653.0157) && (YPOS>=-568.6906&&YPOS<=-560.7563)
 		{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
@@ -274,7 +274,7 @@ If (Freigabe = 1)
 		}
 	else if(XPOS>=853.3868-8&&XPOS<=845.1692+8) && (YPOS>=-1231.5667-3&&YPOS<=-1227.4775+3)
 		{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
@@ -291,7 +291,7 @@ If (Freigabe = 1)
 		}
 	else if(XPOS>=1943.6532-2&&XPOS<=1946.0018+2) && (YPOS>=-1769.7651-5&&YPOS<=-1775.5492+5)
 		{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
@@ -308,7 +308,7 @@ If (Freigabe = 1)
 		}
 	else if(XPOS>=1519.1462-2&&XPOS<=1524.9775+2) && (YPOS>=-1765.2529-5&&YPOS<=-1765.2268+5)
 			{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
@@ -325,7 +325,7 @@ If (Freigabe = 1)
 		}
 	else if(XPOS>=609.7499&&XPOS<=614.7625) && (YPOS>=1692.1746&&YPOS<=1697.033)
 		{
-		SendChat("Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
+		AddChatMessage(0xFFFFFF, "Möchtest du dein Fahrzeug jetzt betanken?[mit 'X' bestätigen]")
 		Keywait, X, D, T10
 		if !errorLevel
 		{
